@@ -266,6 +266,7 @@ const ProductList = () => {
                           <MenuItem value="Shirt">T-shirt</MenuItem>
                           <MenuItem value="Pants">Pant</MenuItem>
                           <MenuItem value="Vest">Vest</MenuItem>
+                          <MenuItem value="VideoGame">Video Game</MenuItem>
                         </Select>
                       </FormControl>
                     </Col>

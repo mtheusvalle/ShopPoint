@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Row, Col, Image, ListGroup, Card } from "react-bootstrap";
 import * as productAction from "../actions/productAction";
 import ErrorMessage from "../components/Message/errorMessage";
-import ProductReview from "../components/ProductReview/ProductReview";
+import ProductReview from "../components/ProductReview/productReview";
 import Rating from "../components/Rating/Rating";
 import {
   Select,

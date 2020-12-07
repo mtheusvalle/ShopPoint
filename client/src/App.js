@@ -24,6 +24,7 @@ import Register from "./pages/Register";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import EmailVerification from "./pages/EmailVerification";
+import CategoryList from "./pages/CategoryList";
 
 function App() {
   return (
@@ -87,6 +88,11 @@ function App() {
               exact={true}
               path="/admin/user/:userId/edit"
               component={EditUser}
+            />
+            <Route
+              exact={true}
+              path="/admin/categoryList"
+              component={CategoryList}
             />
             <Route exact={true} path="/register" component={Register} />
             <Route

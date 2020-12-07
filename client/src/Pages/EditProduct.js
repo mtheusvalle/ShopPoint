@@ -236,6 +236,7 @@ const EditProduct = ({ match }) => {
                   <MenuItem value="Shirt">T-shirt</MenuItem>
                   <MenuItem value="Pants">Pant</MenuItem>
                   <MenuItem value="Vest">Vest</MenuItem>
+                  <MenuItem value="Video Game">Video Game</MenuItem>
                 </Select>
               </FormControl>
 
